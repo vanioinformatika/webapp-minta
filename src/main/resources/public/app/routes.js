@@ -10,14 +10,14 @@ module.exports = function ($stateProvider) {
                 }
             })
             .state('app.home', {
-                controller: require('./home.ctrl.js'),
+                controller: require('./home/home.ctrl.js'),
                 controllerAs:  'home',
-                template: fs.readFileSync(__dirname + '/views/home.tpl.html', 'UTF-8')
+                template: fs.readFileSync(__dirname + '/home/home.tpl.html', 'UTF-8')
             })
             .state('app.admin', {
-                controller: require('./admin.ctrl.js'),
+                controller: require('./admin/admin.ctrl.js'),
                 controllerAs:  'admin',
-                template: fs.readFileSync(__dirname + '/views/admin.tpl.html', 'UTF-8')
+                template: fs.readFileSync(__dirname + '/admin/admin.tpl.html', 'UTF-8')
             });
 };
 
