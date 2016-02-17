@@ -1,25 +1,25 @@
 {
-    "name": "webapp-minta",
-    "version": "1.0.0",
-    "description": "Minta webalkalmazás",
-    "main": "src/main/resources/public/index.html",
-    "private": true,
-    "scripts": {
-        "build-client": "webpack",
-        "watch-client": "webpack --watch"
-    },
-    "keywords": [
-        "WEBAPP", "SAMPLE"
-    ],
-    "author": "Szalai Gyula",
-    "dependencies": {},
-    "devDependencies": {
-        "brfs": "^1.4.1",
-        "css-loader": "^0.23.1",
-        "node-sass": "^3.4.2",
-        "sass-loader": "^3.1.2",
-        "style-loader": "^0.13.0",
-        "transform-loader": "^0.2.3",
-        "webpack": "^1.12.11"
-    }
+  "name": "webapp-minta",
+  "version": "1.0.0",
+  "description": "Minta webalkalmazás",
+  "main": "src/main/resources/public/index.html",
+  "private": true,
+  "scripts": {
+    "build-client": "webpack",
+    "watch-client": "webpack --watch"
+  },
+  "keywords": [
+    "WEBAPP",
+    "SAMPLE"
+  ],
+  "author": "Szalai Gyula",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "html-loader": "^0.4.3",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.11"
+  }
 }
