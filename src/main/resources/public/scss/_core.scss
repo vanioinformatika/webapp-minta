@@ -1,0 +1,30 @@
+@media screen {
+
+    body {
+        margin-top: 60px;
+        font-size: 1.3em;
+        background-color: $body-bgcolor;
+        
+        input.form-control {
+            margin-right: 10px;
+        }
+        
+        div.uzenet-lista {
+            margin-top: 10px;
+            width: 80%;
+        }
+        
+        .form-inline {
+            > .form-control {
+                margin-top: 5px;
+            }
+        }
+        
+        div.container {
+            background-color: yellow;
+        }
+        
+    }
+
+
+}

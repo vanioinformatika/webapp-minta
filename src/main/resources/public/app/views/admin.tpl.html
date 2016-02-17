@@ -1,0 +1,22 @@
+<div>
+    <div class="container">
+        
+        <div class="col-md-offset-3 col-md-6">
+            <h2>ADMIN</h2>
+
+            <div class="form-inline">
+                <input class="form-control" type="text" ng-model="admin.uzenet"/>
+                <button class="form-control btn btn-primary" ng-click="admin.uzenetLetrehozas()">Hozzáadás</button>
+                <button class="form-control btn btn-primary" ng-click="admin.uzenetekTorlese()">Összes törlése</button>
+            </div>
+
+            <div class="uzenet-lista">
+                <label class="control-label">Üzenetek:</label>
+                <ul class="list-unstyled">
+                    <li class="list-group-item" ng-repeat="uzenet in admin.uzenetek.uzenetLista track by $index">{{uzenet}}</li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+</div>
